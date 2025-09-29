@@ -1,12 +1,12 @@
 // Q1
 // Answer
 
-// let colors = ["blue","red","green","yellow","black","gray"];
-// let btn = document.querySelector("#btn");
-// let body = document.querySelector("body")
-// btn.addEventListener("click" ,()=>{
-// colors.filter(color => color.includes() === colors.length )
-// })
+let colors = ["blue","red","green","yellow","black","gray"];
+let btn = document.querySelector("#btn");
+let body = document.querySelector("body")
+btn.addEventListener("click" ,()=>{
+colors.filter(color => color.includes() === colors.length )
+})
 
 
 // Q2

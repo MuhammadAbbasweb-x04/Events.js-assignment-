@@ -86,3 +86,22 @@
 // })
 
 
+
+// Q7
+// Answer
+// let  input = document.querySelector("#password-inp");
+// let spn  = document.querySelector("#password-spn");
+// let form = document.querySelector("#form");
+// form.addEventListener("input", function(){
+// if(input.length < 10){
+//   spn.innerHTML = "Strong password"
+//   spn.style.color = "green";
+// }else{
+// spn.innerHTML = "Weak password!";
+// spn.style.color = "red";
+
+// }
+
+
+
+// })

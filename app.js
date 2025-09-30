@@ -1,12 +1,18 @@
 // Q1
 // Answer
+// let colors = ["#ff0000","#00d100","#adff2f","#000000","#0000ff"];
+// let index = 0;
+// let btn = document.querySelector("#btn");
+// let body = document.querySelector("body")
 
-let colors = ["blue","red","green","yellow","black","gray"];
-let btn = document.querySelector("#btn");
-let body = document.querySelector("body")
-btn.addEventListener("click" ,()=>{
-colors.filter(color => color.includes() === colors.length )
-})
+// btn.addEventListener("click" ,() =>{
+// let index = Math.floor(Math.random() * colors.length)
+// let cahngecolors = colors[index]
+// body.style.backgroundColor = cahngecolors
+
+
+// })
+
 
 
 // Q2
@@ -42,3 +48,41 @@ colors.filter(color => color.includes() === colors.length )
 
 // Q4
 // Answer
+// let increase    = document.querySelector("#increase-spn");
+// let increasebtn = document.querySelector("#increase-plus");
+// let decreasebtn = document.querySelector("#decrease-minus");
+// const val = 0;
+// increasebtn.addEventListener("click" , ()=>{
+// increase.innerHTML += val++
+
+
+// })
+
+
+// Q5
+// Answer
+
+// const btn = document.querySelector("#btn");
+// btn.addEventListener("click" , ()=>{
+// btn.disabled = true;
+
+
+// })
+
+
+
+// Q6
+// Answer
+// let keys = document.querySelector("#keys");
+// let spn = document.querySelector("#spn");
+
+// keys.addEventListener("keydown", (dets)=>{
+// if(dets.key === " "){
+// spn.textContent = "Sapce"
+
+// }else{
+//  spn.textContent = dets.key   
+// }
+// })
+
+

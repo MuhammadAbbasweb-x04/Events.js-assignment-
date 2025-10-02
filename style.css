@@ -26,45 +26,57 @@ background-color: #c4c2c2;
 
 
 /* Q2 */
-/* 
-#darkbtn{
-border-radius: 10px;
-padding: 10px 10px;
-border: none;
-cursor: pointer;
-font-size: 1rem;
-}
 
-#darkbtn:hover{
-background-color: #c4c2c2;
+    /* body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+    }
 
-} 
+    .toggle-switch {
+      position: relative;
+      width: 70px;
+      height: 35px;
+    }
 
+    .toggle-switch input {
+      display: none;
+    }
 
-#lightbtn{
-border-radius: 10px;
-padding: 10px 10px;
-border: none;
-cursor: pointer;
-font-size: 1rem;
-}
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0;
+      right: 0; bottom: 0;
+      background-color: #555;
+      border-radius: 50px;
+      transition: background-color 0.4s;
+    }
 
-#lightbtn:hover{
-background-color: #c4c2c2;
+    .slider::before {
+      content: "";
+      position: absolute;
+      height: 27px;
+      width: 27px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      border-radius: 50%;
+      transition: transform 0.4s ease;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
 
-}
+    input:checked + .slider {
+      background-color: #00d084;
+    }
 
+    input:checked + .slider::before {
+      transform: translateX(35px);
+    } */
 
-#headcon{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 90vh;
-font-size: 2rem;
-font-family: sans-serif;
-
-}
- */
 
 
 
@@ -100,7 +112,7 @@ font-size: 7rem;
 
 }
 
-#decrease-spn{
+#spn{
 font-size: 7rem;
 
 }
@@ -143,15 +155,15 @@ font-weight:bolder;
 #decrease-minus:hover{
 background-color: #e0e0e0;
 
-} */
+}
 
-
+ */
 
 
 
 
 /* Q5*/
- /* #btn-sec{
+  /* #btn-sec{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -197,12 +209,12 @@ font-size: 7rem;
 font-family: sans-serif;
 font-weight: 500;
 
-} */
+} 
 
 
 
-
-/* #inp-container{
+/* Q7*/
+#inp-container{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -224,4 +236,4 @@ font-weight: 300;
 padding: 10px 60px;
 
 
-} */
+} 

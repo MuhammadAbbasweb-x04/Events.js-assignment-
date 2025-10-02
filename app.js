@@ -17,23 +17,21 @@
 
 // Q2
 // Answer
-// let darkbtn = document.querySelector("#darkbtn ");
-// let lightbtn = document.querySelector("#lightbtn");
+// let toggle = document.querySelector("#myToggle");
 // let body = document.querySelector("body");
 // let h1 = document.querySelector("h1");
 
 
-// darkbtn.addEventListener("click" , () =>{
+// toggle.addEventListener("change" , () =>{
+// if(toggle.checked){
 // body.style.backgroundColor = "black"
 // h1.style.color = "white";
-
-// })
-
-// lightbtn.addEventListener("click" , () =>{
+// }
+// else{
 // body.style.backgroundColor = "white"
 // h1.style.color = "black";
+// }
 // })
-
 
 
 // Q3
@@ -48,15 +46,23 @@
 
 // Q4
 // Answer
-// let increase    = document.querySelector("#increase-spn");
+// let spn    = document.querySelector("#spn");
 // let increasebtn = document.querySelector("#increase-plus");
 // let decreasebtn = document.querySelector("#decrease-minus");
-// const val = 0;
+// let count = 0;
 // increasebtn.addEventListener("click" , ()=>{
-// increase.innerHTML += val++
+// spn.textContent = count++
+
 
 
 // })
+// decreasebtn.addEventListener("click" , () =>{
+
+// spn.textContent = count-- 
+
+    
+// })
+
 
 
 // Q5
@@ -89,19 +95,19 @@
 
 // Q7
 // Answer
-// let  input = document.querySelector("#password-inp");
-// let spn  = document.querySelector("#password-spn");
-// let form = document.querySelector("#form");
-// form.addEventListener("input", function(){
-// if(input.length < 10){
-//   spn.innerHTML = "Strong password"
-//   spn.style.color = "green";
-// }else{
-// spn.innerHTML = "Weak password!";
-// spn.style.color = "red";
+let  input = document.querySelector("#password-inp");
+let spn  = document.querySelector("#password-spn");
+let form = document.querySelector("#form");
+form.addEventListener("input", function(){
+if(input.length < 10){
+  spn.innerHTML = "Strong password"
+  spn.style.color = "green";
+}else{
+spn.innerHTML = "Weak password!";
+spn.style.color = "red";
 
-// }
+}
 
 
 
-// })
+})

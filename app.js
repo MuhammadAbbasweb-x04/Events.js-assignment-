@@ -71,8 +71,6 @@
 // const btn = document.querySelector("#btn");
 // btn.addEventListener("click" , ()=>{
 // btn.disabled = true;
-
-
 // })
 
 
@@ -81,7 +79,6 @@
 // Answer
 // let keys = document.querySelector("#keys");
 // let spn = document.querySelector("#spn");
-
 // keys.addEventListener("keydown", (dets)=>{
 // if(dets.key === " "){
 // spn.textContent = "Sapce"
@@ -95,19 +92,20 @@
 
 // Q7
 // Answer
-let  input = document.querySelector("#password-inp");
-let spn  = document.querySelector("#password-spn");
-let form = document.querySelector("#form");
-form.addEventListener("input", function(){
-if(input.length < 10){
-  spn.innerHTML = "Strong password"
-  spn.style.color = "green";
-}else{
-spn.innerHTML = "Weak password!";
-spn.style.color = "red";
+// let  input = document.querySelector("#password-inp");
+// let spn  = document.querySelector("#password-spn");
+// let form = document.querySelector("#form");
+// form.addEventListener("input", function(){
+// if(input.value.length >= 10){
+//   spn.innerHTML = "Strong password"
+//   spn.style.color = "green";
+// }else{
+// spn.innerHTML = "Weak password!";
+// spn.style.color = "red";
+// }
+// })
 
-}
 
 
-
-})
+// Q8
+// Answer

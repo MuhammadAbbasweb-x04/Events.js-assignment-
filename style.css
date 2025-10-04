@@ -237,3 +237,25 @@ padding: 10px 60px;
 
 
 }  */
+
+
+
+/* Q8/
+/* #container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+flex-direction: column;
+}
+
+
+#key-input{
+padding: 20px 40px;
+}
+
+#spn{
+font-size: 5rem;
+font-weight: 500;
+font-family: sans-serif;
+} */

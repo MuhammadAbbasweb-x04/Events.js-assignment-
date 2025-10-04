@@ -109,3 +109,16 @@
 
 // Q8
 // Answer
+
+// let input = document.querySelector("#key-input");
+// let spn = document.querySelector("#spn");
+// input.addEventListener("keydown" , (dats) =>{
+// if(dats.key === "Enter"){
+// alert("Your form submited")
+
+// }else{
+// spn.textContent = dats.key
+
+
+// }
+// })

@@ -122,3 +122,13 @@
 
 // }
 // })
+
+
+// Q9
+// Answer
+// let input = document.querySelector("#key-input");
+// input.addEventListener("keyup" , function(){
+// this.value = this.value.toUpperCase();    
+
+
+// })

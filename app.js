@@ -132,3 +132,23 @@
 
 
 // })
+
+
+
+
+
+
+// Q10
+// Answer
+let arr = ["spam","test"];
+ let input = document.querySelector("#input");
+ let btn = documet.querySelector("#btn"); 
+ btn.addEventListener("submit", ()=>{
+if(input.value === "Enter"){
+alert("your form is submited");
+}
+else{
+alert("your form is not submited");  
+arr.filter(words => words.arr !== input.value)   
+}
+})

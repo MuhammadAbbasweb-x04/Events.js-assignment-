@@ -283,3 +283,38 @@ font-family: sans-serif;
 } */
 
 
+
+
+/* Q10 */
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+flex-direction: column;
+}
+
+
+#input{
+padding: 20px 40px;
+}
+
+#spn{
+font-size: 5rem;
+font-weight: 500;
+font-family: sans-serif;
+}
+
+
+#btn{
+border-radius: 10px;
+padding: 10px 10px;
+border: none;
+cursor: pointer;
+font-size: 1rem;
+}
+
+#btn:hover{
+background-color: #c4c2c2;
+
+} 

@@ -140,15 +140,46 @@
 
 // Q10
 // Answer
-let arr = ["spam","test"];
- let input = document.querySelector("#input");
- let btn = documet.querySelector("#btn"); 
- btn.addEventListener("submit", ()=>{
-if(input.value === "Enter"){
-alert("your form is submited");
-}
-else{
-alert("your form is not submited");  
-arr.filter(words => words.arr !== input.value)   
-}
-})
+// let arr = ["spam","test"];
+// let form = document.querySelector("form");
+//  let input = document.querySelector("#input");
+//  let btn = documet.querySelector("#btn"); 
+//  form.addEventListener("submit", ()=>{
+// if(btn === "submit"){
+// alert("your form is submited");
+// }
+// else{
+// alert("your form is not submited");  
+// }
+// })
+
+
+
+
+// Q11
+// Answer
+// const countryCities = {
+//   "Pakistan": ["Karachi", "Lahore", "Islamabad"],
+//   "India": ["Delhi", "Mumbai", "Bangalore"],
+//   "Usa": ["New York", "Los Angeles", "Chicago"],
+// };
+
+// let country = document.querySelector("#selectcountry");
+// let cite = document.querySelector("#selectcite");
+// let option = document.querySelectorAll("option");
+
+
+// for(country.value in countryCities){
+// country.addEventListener("change" , ()=>{
+// cite.value = country;
+// cite.textContent = country;
+// country.appendChild("option");
+
+// })
+// }
+
+
+
+
+
+

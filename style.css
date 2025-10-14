@@ -1,3 +1,12 @@
+#head{
+text-align: center;
+font-size: 2.6rem;
+
+}
+
+
+
+
 /* Q1 */
 /* #btnsec{
 display: flex;
@@ -286,7 +295,7 @@ font-family: sans-serif;
 
 
 /* Q10 */
-#container{
+/* #container{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -317,4 +326,44 @@ font-size: 1rem;
 #btn:hover{
 background-color: #c4c2c2;
 
-} 
+}  */
+
+
+/* Q11 */
+/* #select-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+
+
+}
+#head{
+text-align: center;
+
+
+}
+
+#selectcite{
+padding: 5px 80px;
+
+
+}
+
+#selectcountry{
+padding: 5px 60px;
+margin: 9px;
+
+}
+
+#cite{
+display: none;
+
+
+}
+
+#country{
+display: none;
+
+
+} */

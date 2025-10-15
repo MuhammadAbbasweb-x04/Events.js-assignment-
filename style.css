@@ -394,3 +394,66 @@ cursor: pointer;
 h1{
   text-align: center;
 }  */
+
+
+
+
+
+
+/* Q13 */
+.password-container {
+  position: relative;
+  width: 300px; 
+}
+
+#myPassword {
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.hidden-checkbox {
+  display: none; 
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  width: 20px;
+  height: 12px;
+  border: 2px solid #333;
+  border-radius: 50% / 60%;
+  display: block;
+}
+
+.toggle-icon::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+
+.hidden-checkbox + .toggle-icon {
+ 
+}
+
+
+.hidden-checkbox:checked + .toggle-icon {
+
+  border-color: #007bff;
+}
+
+.hidden-checkbox:checked + .toggle-icon::before {
+  background-color: #007bff;
+}

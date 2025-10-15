@@ -221,20 +221,19 @@
 
 
 
+// Q13
+// Answer
+let toggle = document.querySelector("#pw-toggle-checkbox");
+let input = document.querySelector("#pw-input");
+let form = document.querySelector("#userform");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+form.addEventListener("change" , ()=>{
+if(toggle.Checked){
+input.type = "text"
+}else{
+input.type = "password";
+}
+})
 
 
 

@@ -457,3 +457,33 @@ h1{
 .hidden-checkbox:checked + .toggle-icon::before {
   background-color: #007bff;
 } */
+
+
+
+/* Q14 */
+#input-sec{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+
+}
+
+#box{
+border: 2px solid black;
+height: 230px;
+width: 40%;
+
+}
+
+
+
+#bx{
+height: 270px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+

@@ -235,5 +235,15 @@
 // })
 
 
+// Q14
+// Answer
 
+let color = document.querySelector("#inputcolor");
+let box = document.querySelector("#box");
+let h1 = document.querySelector("#haed");
+color.addEventListener("change" , (event)=>{
+    event.preventDefault();
+box.style.backgroundColor = color.value;
+h1.style.backgroundColor = color.value;
 
+})

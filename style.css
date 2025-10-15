@@ -401,7 +401,7 @@ h1{
 
 
 /* Q13 */
-.password-container {
+/* .password-container {
   position: relative;
   width: 300px; 
 }
@@ -456,4 +456,4 @@ h1{
 
 .hidden-checkbox:checked + .toggle-icon::before {
   background-color: #007bff;
-}
+} */

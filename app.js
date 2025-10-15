@@ -179,6 +179,62 @@
 // }
 
 
+// Q12
+// Answer
+// const fullnameRe = /^(?=.{8,}$)[A-Za-zÀ-ÖØ-öø-ÿ]+([ '\-][A-Za-zÀ-ÖØ-öø-ÿ]+)*$/u;
+// const emailRe = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/;
+// const passwordRe = /^(?=.{8,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+=\[\]{};:'",.<>\/?\\|`~]).*$/;
+// let form = document.querySelector("#userform");
+// let inputname = document.querySelector("#inputname");
+// let inputemail = document.querySelector("#inputemail");
+// let inputpassword = document.querySelector("#inputpassword");
+
+
+// form.addEventListener("submit" , function(event){
+// event.preventDefault();
+// if(!fullnameRe.test(inputname.value)){
+//   Swal.fire({
+//   icon: "error",
+//   title: "Oops...",
+//   text: "Fullname is incorrect only for 8 corrector",
+// });
+// }else if(!emailRe.test(inputemail.value)){
+//  Swal.fire({
+//   icon: "error",
+//   title: "Oops...",
+//   text: "Email is incorrect",
+// });
+// }else if(!passwordRe.test(inputpassword.value)){
+//  Swal.fire({
+//   icon: "error",
+//   title: "Oops...",
+//   text: "Password is incorrect only for 8 corrector spaceil corrector is messing ! $ % @ #",
+// });
+// } else{
+//    Swal.fire({
+//   title: "Good job!",
+//   text: "your form is submited",
+//   icon: "success"
+// });
+// }
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

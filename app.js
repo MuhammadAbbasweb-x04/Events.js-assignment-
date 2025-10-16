@@ -247,3 +247,52 @@
 // h1.style.backgroundColor = color.value;
 
 // })
+
+
+
+
+
+
+// Q15
+// Answer
+//  let form = document.querySelector("#submit-form");
+//  let input  = document.querySelector("#terms");
+// let btn = document.querySelector("#form-btn");
+// input.addEventListener("click" ,()=>{
+// if(input.checked){
+//  btn.disabled = true;
+// btn.style.backgroundColor = " #05a9af";
+// btn.style.cursor = "pointer";
+
+// }else{
+//  btn.disabled = false;
+// btn.style.backgroundColor = "rgb(219, 217, 217)";
+// btn.style.cursor = "not-allowed";
+// }
+
+// })
+
+
+
+
+
+// Q16
+// Answer
+// let img = document.querySelector("img");
+// img.addEventListener("mouseover" , ()=>{
+// img.style.width = "900px";
+// img.style.height = "800px";
+// img.style.cursor = "pointer";
+
+// })
+// img.addEventListener("mouseout", ()=>{
+// img.style.width = "400px";
+// img.style.height = "350px";
+// img.style.cursor = "pointer";
+
+// })
+
+
+
+// Q18
+// Answer

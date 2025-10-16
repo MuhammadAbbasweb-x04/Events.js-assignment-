@@ -294,5 +294,22 @@
 
 
 
+// Q17
+// Answer
+// let btn = document.querySelector("#backToTop");
+// window.addEventListener("scroll" ,()=>{
+// if(window.scrollY > 300){
+//     btn.disabled = true;
+// btn.style.display =  "block";
+// }else{
+// btn.disabled = false;
+// btn.style.display =  "none";
+// }    
+// })
+
+
+
+
+
 // Q18
 // Answer

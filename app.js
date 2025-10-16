@@ -309,7 +309,12 @@
 
 
 
-
-
 // Q18
 // Answer
+// let input = document.querySelector("#input-user");
+// let btn = document.querySelector("#btn");
+
+// btn.addEventListener("click" , ()=>{
+// localStorage.setItem("input" , input.value);
+// })
+

@@ -168,15 +168,17 @@
 // let cite = document.querySelector("#selectcite");
 // let option = document.querySelectorAll("option");
 
-
-// for(country.value in countryCities){
-// country.addEventListener("change" , ()=>{
-// cite.value = country;
-// cite.textContent = country;
-// country.appendChild("option");
-
-// })
+// country.addEventListener("change" ,()=>{
+// let selectcountry = country.value;
+// let citys = countryCities[selectcountry];
+// if(citys){
+// let option = citys.map(city => `<option value="${city}">${city}</option>`)
+// cite.innerHTML = option;
+// }else{
+// option.innerHTML = "";
 // }
+// })
+
 
 
 // Q12

@@ -607,3 +607,20 @@ input{
 padding: 7px 30px;
 
 } */
+
+
+
+/* Q20 */
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+height:840px;
+flex-direction: column;
+gap: 10px;
+}
+
+span{
+font-size: 10rem;
+font-family: sans-serif;
+}

@@ -338,12 +338,12 @@
 // Q20
 // Answer
 
-let spn = document.querySelector("span");
-window.addEventListener("keydown", (dats)=>{
-if(dats.key === " " ){
-spn.textContent = "Space"
-}else if(dats.key.length === 1){
-spn.textContent = dats.key
-}
-})
+// let spn = document.querySelector("span");
+// window.addEventListener("keydown", (dats)=>{
+// if(dats.key === " " ){
+// spn.textContent = "Space"
+// }else if(dats.key.length === 1){
+// spn.textContent = dats.key
+// }
+// })
 

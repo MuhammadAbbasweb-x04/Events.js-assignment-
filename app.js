@@ -318,3 +318,21 @@
 // localStorage.setItem("input" , input.value);
 // })
 
+// Q19
+// Answer
+// let div = document.querySelector("#container");
+// let body = document.querySelector("body");
+// document.addEventListener("click" ,(event)=> {
+// if(div.contains(event.target)){  
+// return
+// }else{
+// div.style.display = "none";
+// }
+
+// })
+
+
+
+
+
+

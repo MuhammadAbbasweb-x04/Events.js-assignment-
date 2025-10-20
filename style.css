@@ -585,3 +585,25 @@ cursor: pointer;
 
 
 /* Q19 */
+/* #container{
+display: flex;
+justify-content: center;
+align-items: center;
+height:140px;
+flex-direction: column;
+border: 2px solid black;
+gap: 10px;
+}
+
+#btn{
+padding: 8px 30px;
+background-color: rgb(22, 163, 168);
+border: none;
+color: #ffffff;
+cursor: pointer;
+}
+
+input{
+padding: 7px 30px;
+
+} */

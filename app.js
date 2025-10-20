@@ -143,13 +143,14 @@
 // let arr = ["spam","test"];
 // let form = document.querySelector("form");
 //  let input = document.querySelector("#input");
-//  let btn = documet.querySelector("#btn"); 
-//  form.addEventListener("submit", ()=>{
-// if(btn === "submit"){
-// alert("your form is submited");
-// }
-// else{
-// alert("your form is not submited");  
+//  let btn = document.querySelector("#btn"); 
+//  form.addEventListener("submit", (evt)=>{
+//   evt.preventDefault();
+// let words = arr.some(word => word.includes(input.value))
+// if(words){
+//   alert("Error your input contains forbidden words");
+// }else{
+//   alert("Form submitted successfully");
 // }
 // })
 
